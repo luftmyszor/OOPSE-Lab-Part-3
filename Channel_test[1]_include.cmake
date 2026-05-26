@@ -1,0 +1,5 @@
+if(EXISTS "/home/luftmyszor/studies/OOPSE/OOPSE-Lab-part-3/Channel_test[1]_tests.cmake")
+  include("/home/luftmyszor/studies/OOPSE/OOPSE-Lab-part-3/Channel_test[1]_tests.cmake")
+else()
+  add_test(Channel_test_NOT_BUILT Channel_test_NOT_BUILT)
+endif()

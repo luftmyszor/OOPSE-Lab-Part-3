@@ -1,4 +1,3 @@
-#include <gtest/gtest.h>
 #include "Channel.h"
 
 template <typename T, int N>
